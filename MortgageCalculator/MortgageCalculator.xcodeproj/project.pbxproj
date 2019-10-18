@@ -3,11 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CD5F3BD33B9732DFFFD947E7 /* Pods_MortgageCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337546E6D4FD1DF434F0489D /* Pods_MortgageCalculator.framework */; };
+		D99A6CE82359718200CF546A /* MortgageCalculatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99A6CE72359718200CF546A /* MortgageCalculatorController.m */; };
+		D99A6CEB2359719100CF546A /* CalculatorResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99A6CEA2359719100CF546A /* CalculatorResultController.m */; };
+		D99A6CEE2359726400CF546A /* MortgageCalculatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D99A6CEC2359726400CF546A /* MortgageCalculatorView.m */; };
+		D99A6CF1235972A200CF546A /* MortgageCalculatorTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D99A6CF0235972A200CF546A /* MortgageCalculatorTCell.m */; };
+		D99A6CF42359743600CF546A /* MortgageCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D99A6CF32359743600CF546A /* MortgageCalculator.m */; };
+		D99A6CF72359862B00CF546A /* ToolObj.m in Sources */ = {isa = PBXBuildFile; fileRef = D99A6CF62359862B00CF546A /* ToolObj.m */; };
+		D99A6CFA235987FB00CF546A /* CalculateResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D99A6CF9235987FB00CF546A /* CalculateResultModel.m */; };
+		D99A6CFD2359A7D300CF546A /* HouseLoanCalcuResultHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D99A6CFC2359A7D300CF546A /* HouseLoanCalcuResultHeaderView.m */; };
+		D99A6D002359A7DA00CF546A /* HouseLoanCalResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D99A6CFF2359A7DA00CF546A /* HouseLoanCalResultTableViewCell.m */; };
 		D9F8714523596C8C008B24E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F8714423596C8C008B24E5 /* AppDelegate.m */; };
 		D9F8714823596C8C008B24E5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F8714723596C8C008B24E5 /* SceneDelegate.m */; };
 		D9F8714B23596C8C008B24E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F8714A23596C8C008B24E5 /* ViewController.m */; };
@@ -21,6 +30,24 @@
 		0EE219283051A007F6ECEB4F /* Pods-MortgageCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MortgageCalculator.debug.xcconfig"; path = "Target Support Files/Pods-MortgageCalculator/Pods-MortgageCalculator.debug.xcconfig"; sourceTree = "<group>"; };
 		31771EEF2445034D7C0C90ED /* Pods-MortgageCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MortgageCalculator.release.xcconfig"; path = "Target Support Files/Pods-MortgageCalculator/Pods-MortgageCalculator.release.xcconfig"; sourceTree = "<group>"; };
 		337546E6D4FD1DF434F0489D /* Pods_MortgageCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MortgageCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99A6CE62359718200CF546A /* MortgageCalculatorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MortgageCalculatorController.h; sourceTree = "<group>"; };
+		D99A6CE72359718200CF546A /* MortgageCalculatorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MortgageCalculatorController.m; sourceTree = "<group>"; };
+		D99A6CE92359719100CF546A /* CalculatorResultController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorResultController.h; sourceTree = "<group>"; };
+		D99A6CEA2359719100CF546A /* CalculatorResultController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorResultController.m; sourceTree = "<group>"; };
+		D99A6CEC2359726400CF546A /* MortgageCalculatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MortgageCalculatorView.m; sourceTree = "<group>"; };
+		D99A6CED2359726400CF546A /* MortgageCalculatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MortgageCalculatorView.h; sourceTree = "<group>"; };
+		D99A6CEF235972A200CF546A /* MortgageCalculatorTCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MortgageCalculatorTCell.h; sourceTree = "<group>"; };
+		D99A6CF0235972A200CF546A /* MortgageCalculatorTCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MortgageCalculatorTCell.m; sourceTree = "<group>"; };
+		D99A6CF22359743500CF546A /* MortgageCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MortgageCalculator.h; sourceTree = "<group>"; };
+		D99A6CF32359743600CF546A /* MortgageCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MortgageCalculator.m; sourceTree = "<group>"; };
+		D99A6CF52359862B00CF546A /* ToolObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolObj.h; sourceTree = "<group>"; };
+		D99A6CF62359862B00CF546A /* ToolObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolObj.m; sourceTree = "<group>"; };
+		D99A6CF8235987FB00CF546A /* CalculateResultModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculateResultModel.h; sourceTree = "<group>"; };
+		D99A6CF9235987FB00CF546A /* CalculateResultModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculateResultModel.m; sourceTree = "<group>"; };
+		D99A6CFB2359A7D300CF546A /* HouseLoanCalcuResultHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseLoanCalcuResultHeaderView.h; sourceTree = "<group>"; };
+		D99A6CFC2359A7D300CF546A /* HouseLoanCalcuResultHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseLoanCalcuResultHeaderView.m; sourceTree = "<group>"; };
+		D99A6CFE2359A7DA00CF546A /* HouseLoanCalResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseLoanCalResultTableViewCell.h; sourceTree = "<group>"; };
+		D99A6CFF2359A7DA00CF546A /* HouseLoanCalResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseLoanCalResultTableViewCell.m; sourceTree = "<group>"; };
 		D9F8714023596C8C008B24E5 /* MortgageCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MortgageCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F8714323596C8C008B24E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9F8714423596C8C008B24E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,6 +60,7 @@
 		D9F8715223596C8D008B24E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9F8715423596C8D008B24E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9F8715523596C8D008B24E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9F8716223596DFE008B24E5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +81,6 @@
 				0EE219283051A007F6ECEB4F /* Pods-MortgageCalculator.debug.xcconfig */,
 				31771EEF2445034D7C0C90ED /* Pods-MortgageCalculator.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -63,6 +90,17 @@
 				337546E6D4FD1DF434F0489D /* Pods_MortgageCalculator.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D99A6D012359A7F600CF546A /* CalculateResultView */ = {
+			isa = PBXGroup;
+			children = (
+				D99A6CFB2359A7D300CF546A /* HouseLoanCalcuResultHeaderView.h */,
+				D99A6CFC2359A7D300CF546A /* HouseLoanCalcuResultHeaderView.m */,
+				D99A6CFE2359A7DA00CF546A /* HouseLoanCalResultTableViewCell.h */,
+				D99A6CFF2359A7DA00CF546A /* HouseLoanCalResultTableViewCell.m */,
+			);
+			path = CalculateResultView;
 			sourceTree = "<group>";
 		};
 		D9F8713723596C8C008B24E5 = {
@@ -86,19 +124,83 @@
 		D9F8714223596C8C008B24E5 /* MortgageCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				D9F8715D23596DD0008B24E5 /* Header */,
+				D9F8715C23596DD0008B24E5 /* AppDelegate */,
+				D9F8715E23596DD0008B24E5 /* Class */,
+				D9F8714F23596C8D008B24E5 /* Assets.xcassets */,
+			);
+			path = MortgageCalculator;
+			sourceTree = "<group>";
+		};
+		D9F8715C23596DD0008B24E5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
 				D9F8714323596C8C008B24E5 /* AppDelegate.h */,
 				D9F8714423596C8C008B24E5 /* AppDelegate.m */,
 				D9F8714623596C8C008B24E5 /* SceneDelegate.h */,
 				D9F8714723596C8C008B24E5 /* SceneDelegate.m */,
-				D9F8714923596C8C008B24E5 /* ViewController.h */,
-				D9F8714A23596C8C008B24E5 /* ViewController.m */,
 				D9F8714C23596C8C008B24E5 /* Main.storyboard */,
-				D9F8714F23596C8D008B24E5 /* Assets.xcassets */,
 				D9F8715123596C8D008B24E5 /* LaunchScreen.storyboard */,
 				D9F8715423596C8D008B24E5 /* Info.plist */,
 				D9F8715523596C8D008B24E5 /* main.m */,
 			);
-			path = MortgageCalculator;
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D9F8715D23596DD0008B24E5 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				D9F8716223596DFE008B24E5 /* PrefixHeader.pch */,
+				D99A6CF52359862B00CF546A /* ToolObj.h */,
+				D99A6CF62359862B00CF546A /* ToolObj.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		D9F8715E23596DD0008B24E5 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D9F8715F23596DD0008B24E5 /* Controller */,
+				D9F8716023596DD0008B24E5 /* Model */,
+				D9F8716123596DD0008B24E5 /* View */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		D9F8715F23596DD0008B24E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9F8714923596C8C008B24E5 /* ViewController.h */,
+				D9F8714A23596C8C008B24E5 /* ViewController.m */,
+				D99A6CE62359718200CF546A /* MortgageCalculatorController.h */,
+				D99A6CE72359718200CF546A /* MortgageCalculatorController.m */,
+				D99A6CE92359719100CF546A /* CalculatorResultController.h */,
+				D99A6CEA2359719100CF546A /* CalculatorResultController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9F8716023596DD0008B24E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D99A6CF22359743500CF546A /* MortgageCalculator.h */,
+				D99A6CF32359743600CF546A /* MortgageCalculator.m */,
+				D99A6CF8235987FB00CF546A /* CalculateResultModel.h */,
+				D99A6CF9235987FB00CF546A /* CalculateResultModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9F8716123596DD0008B24E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D99A6D012359A7F600CF546A /* CalculateResultView */,
+				D99A6CED2359726400CF546A /* MortgageCalculatorView.h */,
+				D99A6CEC2359726400CF546A /* MortgageCalculatorView.m */,
+				D99A6CEF235972A200CF546A /* MortgageCalculatorTCell.h */,
+				D99A6CF0235972A200CF546A /* MortgageCalculatorTCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,10 +317,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99A6CFD2359A7D300CF546A /* HouseLoanCalcuResultHeaderView.m in Sources */,
+				D99A6CF42359743600CF546A /* MortgageCalculator.m in Sources */,
+				D99A6CEB2359719100CF546A /* CalculatorResultController.m in Sources */,
+				D99A6CF1235972A200CF546A /* MortgageCalculatorTCell.m in Sources */,
 				D9F8714B23596C8C008B24E5 /* ViewController.m in Sources */,
+				D99A6CE82359718200CF546A /* MortgageCalculatorController.m in Sources */,
+				D99A6CF72359862B00CF546A /* ToolObj.m in Sources */,
 				D9F8714523596C8C008B24E5 /* AppDelegate.m in Sources */,
 				D9F8715623596C8D008B24E5 /* main.m in Sources */,
+				D99A6CEE2359726400CF546A /* MortgageCalculatorView.m in Sources */,
 				D9F8714823596C8C008B24E5 /* SceneDelegate.m in Sources */,
+				D99A6D002359A7DA00CF546A /* HouseLoanCalResultTableViewCell.m in Sources */,
+				D99A6CFA235987FB00CF546A /* CalculateResultModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -346,7 +457,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -361,7 +472,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WY35GL3MV8;
-				INFOPLIST_FILE = MortgageCalculator/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MortgageCalculator/Header/PrefixHeader.pch";
+				INFOPLIST_FILE = MortgageCalculator/AppDelegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,7 +492,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WY35GL3MV8;
-				INFOPLIST_FILE = MortgageCalculator/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MortgageCalculator/Header/PrefixHeader.pch";
+				INFOPLIST_FILE = MortgageCalculator/AppDelegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
