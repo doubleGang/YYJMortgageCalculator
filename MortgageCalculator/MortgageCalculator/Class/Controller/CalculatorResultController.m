@@ -83,7 +83,7 @@ static NSString *cellID = @"cellID";
 
 - (UITableView *)tableView {
     if (_tableView == nil) {
-        CGRect frame = self.view.bounds;//CGRectMake(0, 0, ScreenWidth, ScreenHeight-TopOffset);
+        CGRect frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight-TopOffset);
          UITableView *_shotTableView = [[UITableView alloc] initWithFrame:frame style:UITableViewStyleGrouped];
         _tableView = _shotTableView;
         _shotTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
